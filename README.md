@@ -1,7 +1,7 @@
 wordpress-enable-local-updates
 ==============================
 
-To enable updates locally on OSX
+To enable updates locally on OSX do the following. Complete all steps and change ownership back to you otherwise you won't be able to edit anything.
 
 ----
 
