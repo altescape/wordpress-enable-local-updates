@@ -25,4 +25,5 @@ To enable updates locally on OSX do the following. Complete all steps and change
   sudo chown -R _www wp-content/uploads; sudo chmod -R g+w wp-content/uploads
 
 
-@todo: See if you can skip changing everything but the themes folder as that is where most editing is done, so wouldn't need to change and change back everytime.
+### @todo:
+1. See if you can skip changing everything but the themes folder as that is where most editing is done, so wouldn't need to change and change back everytime.
