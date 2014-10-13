@@ -27,3 +27,4 @@ To enable updates locally on OSX do the following. Complete all steps and change
 
 ### @todo:
 1. See if you can skip changing everything but the themes folder as that is where most editing is done, so wouldn't need to change and change back everytime.
+2. Set this with an admin button if possible.
