@@ -17,7 +17,7 @@ To enable updates locally on OSX do the following. Complete all steps and change
   sudo chown -R _www wp-content; sudo chmod -R g+w wp-content
 
 
-3. ##### Change ownership back to originial owner and change permissions back to default 755
+3. ##### Change ownership back to originial owner:group and change permissions back to default 755
   sudo chown -R michaelwatts:wheel wp-content; sudo chmod -R 755 wp-content
 
 
