@@ -7,10 +7,11 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
 
 ----
 
+### Before updating
+
 1. ##### Add following code to wp-config.php
 
   ~~~
-  // Make sure to comment the line below when live
   define('FS_METHOD','direct');
   ~~~
 
@@ -20,12 +21,24 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
   sudo chown -R _www wp-content; sudo chmod -R g+w wp-content
   ~~~
 
-3. ##### Change ownership back to originial owner:group and change permissions back to default 755
+3. Go to WordPress admin and update your plugins
+
+----
+
+### After updating
+
+1. ##### Comment out the line in wp-config.php
+
+  ~~~
+  # define('FS_METHOD','direct');
+  ~~~
+
+2. ##### Change ownership back to originial owner:group and change permissions back to default 755
   ~~~
   sudo chown -R michaelwatts:wheel wp-content; sudo chmod -R 755 wp-content
   ~~~
 
-4. ##### Change ownership and permissions of uploads directory back to apache owner so _www can upload/edit
+3. ##### Change ownership and permissions of uploads directory back to apache owner so _www can upload/edit
   ~~~
   sudo chown -R _www wp-content/uploads; sudo chmod -R g+w wp-content/uploads
   ~~~
