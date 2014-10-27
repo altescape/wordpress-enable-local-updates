@@ -7,7 +7,7 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
 
 ----
 
-### Before updating
+### 1. Before updating
 
 1. ##### Add following code to wp-config.php
 
@@ -25,7 +25,7 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
 
 ----
 
-### After updating
+### 2. After updating
 
 1. ##### Comment out the line in wp-config.php
 
@@ -42,6 +42,8 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
   ~~~
   sudo chown -R _www wp-content/uploads; sudo chmod -R g+w wp-content/uploads
   ~~~
+
+----
 
 ### @todo:
 1. See if you can skip changing everything but the themes folder as that is where most editing is done, so wouldn't need to change and change back everytime.
