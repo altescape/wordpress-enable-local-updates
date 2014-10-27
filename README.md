@@ -7,7 +7,7 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
 
 ----
 
-### 1. Before updating
+### Before updating
 
 1. ##### Add following code to wp-config.php
 
@@ -25,7 +25,7 @@ Complete all steps and ***then change ownership back to you*** otherwise you won
 
 ----
 
-### 2. After updating
+### After updating
 
 1. ##### Comment out the line in wp-config.php
 
